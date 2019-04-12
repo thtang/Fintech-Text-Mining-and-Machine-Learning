@@ -11,5 +11,5 @@ Visualization:
 <img src=https://github.com/thtang/Fintech-Text-Mining-and-Machine-Learning/blob/master/hw2/text_heatmap.png>
 
 ## Reference
-Text Analytics and Visualization [[1]](https://pythondata.com/text-analytics-visualization/)
-Gephi [[2]](https://gephi.org/)
+* Text Analytics and Visualization [[1]](https://pythondata.com/text-analytics-visualization/)
+* Gephi [[2]](https://gephi.org/)
