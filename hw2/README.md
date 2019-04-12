@@ -1,0 +1,5 @@
+Steps for co-occurrence matrix construction and visualization:
+1. collect the news data from [MoneyDJ理財網](https://www.moneydj.com/)
+2. Adopt NER techniques to extract key word from the raw text
+3. Construct a count-based term document matrix *A*
+4. Calculate the term-term co-occurrence matrix
