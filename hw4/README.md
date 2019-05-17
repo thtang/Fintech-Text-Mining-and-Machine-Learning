@@ -2,8 +2,8 @@
 ## Discussion
 1. 本組考慮的 ETF 中，多數 ETF 的 return 分配不符合 NIG distribution， 因此在計算 A 評比指標時會有許多 NaN 值。
 2. 週資料或月結果評比相似嗎 ? 不相似
-    * edit_distance for B using weekly data: 34
-    * edit_distance for C using monthly data: 21
+    * edit_distance for B between weekly and monthly data: 34
+    * edit_distance for C between weekly and monthly data: 21
 3. 不同指標評比結果相似嗎 ?
     * edit_distance for weekly data between B and C: 34
     * edit_distance for monthly data between B and C: 29
