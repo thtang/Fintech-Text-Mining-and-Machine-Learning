@@ -1,4 +1,4 @@
-# Co-occurrence matrix construction and visualization:
+# Co-occurrence matrix construction and visualization
 Step:
 1. collect the news data from [MoneyDJ理財網](https://www.moneydj.com/)
 2. Adopt NER techniques to extract key word from the raw text
