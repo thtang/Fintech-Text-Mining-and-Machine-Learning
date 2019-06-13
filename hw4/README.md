@@ -1,4 +1,4 @@
-# ETF 評比績效理論實作:
+# ETF 評比績效理論實作
 ## Discussion
 
 |  NIG Dist.	|  Dist. of most of other ETFs 	|
