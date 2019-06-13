@@ -21,15 +21,15 @@ Main advantages of Julia:
 
 ## How it works
 1. We construct the relationship matrix of questions by computing their co-occurrence rate. 
-2. Student's t-test is adopted to examine the significance of relationships. 
+2. Student's t-test is adopted to examine the significance of relationships ([Hypothesis Testing for Collocations](https://nlp.stanford.edu/fsnlp/promo/colloc.pdf)).
 3. Given several interested questions, we can visualize their connection and strength as below.
 
 | <img src="https://github.com/thtang/Fintech-Text-Mining-and-Machine-Learning/blob/master/final/visualization/t_test_vis3.png">  | <img src="https://github.com/thtang/Fintech-Text-Mining-and-Machine-Learning/blob/master/final/visualization/t_test_vis2.png">  |  <img src="https://github.com/thtang/Fintech-Text-Mining-and-Machine-Learning/blob/master/final/visualization/t_test_vis1.png"> |
 |---|---|---|
 
 4. Also, with the aid of the real investment data for each user, we generate a interaction matrix and treat funds as items.
-5. LightFM is used to implement the factorization of interaction matrix for funds recommendation.
-6. To discover discriminative questions, we leverage LightGBM, an implementation of Gradient Boosting Decision Trees, with prediction target of risk index (Expected shortfall, Standardivation) to compute the feature importance.
+5. [LightFM](https://github.com/lyst/lightfm) is used to implement the factorization of interaction matrix for funds recommendation.
+6. To discover discriminative questions, we leverage [LightGBM](https://github.com/microsoft/LightGBM), an implementation of Gradient Boosting Decision Trees, with prediction target of risk index (Expected shortfall, Standardivation) to compute the feature importance.
 
 |Part of tree |
 |---|
@@ -38,3 +38,10 @@ Main advantages of Julia:
 | w/ Investment data  |  w/o Investment data |
 |---|---|
 |  <img src="https://github.com/thtang/Fintech-Text-Mining-and-Machine-Learning/blob/master/final/visualization/y_weight_feature_importance.png"> | <img src="https://github.com/thtang/Fintech-Text-Mining-and-Machine-Learning/blob/master/final/visualization/y_mean_feature_importance_without_amount.png">  |
+
+# Reference
+* 基金風險報酬等級分類標準 [[link]](https://www.moneydj.com/funddj/notes/rrnotes/rrnotes.htm)
+* 中華民國證券投資信託暨顧問商業同業公會證券投資信託基金募集發行銷售及其申購或買回作業程序 [[link]](http://www.selaw.com.tw/LawArticle.aspx?LawID=G0101073&ModifyDate=1080328&rng=17)
+* Metadata Embeddings for User and Item Cold-start Recommendations [[link]](https://arxiv.org/abs/1507.08439)
+* LightGBM: A Highly Efficient Gradient Boosting Decision Tree [[link]](https://papers.nips.cc/paper/6907-lightgbm-a-highly-efficient-gradient-boosting-decision-tree)
+* Collocations [[link]](https://nlp.stanford.edu/fsnlp/promo/colloc.pdf)
