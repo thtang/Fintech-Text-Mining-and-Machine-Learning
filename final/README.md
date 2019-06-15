@@ -39,6 +39,11 @@ Main advantages of Julia:
 |---|---|
 |  <img src="https://github.com/thtang/Fintech-Text-Mining-and-Machine-Learning/blob/master/final/visualization/y_weight_feature_importance.png"> | <img src="https://github.com/thtang/Fintech-Text-Mining-and-Machine-Learning/blob/master/final/visualization/y_mean_feature_importance_without_amount.png">  |
 
+# Our Team
+* 戴如宜  `財金系碩士班` `r07723062`
+* 湯忠憲  `資料科學學程碩士班` `r06946003` `thtang@nlg.csie.ntu.edu.tw`
+* 陳熙  `資工系碩士班` `r07922151`
+
 # Reference
 * 基金風險報酬等級分類標準 [[link]](https://www.moneydj.com/funddj/notes/rrnotes/rrnotes.htm)
 * 中華民國證券投資信託暨顧問商業同業公會證券投資信託基金募集發行銷售及其申購或買回作業程序 [[link]](http://www.selaw.com.tw/LawArticle.aspx?LawID=G0101073&ModifyDate=1080328&rng=17)
