@@ -9,4 +9,4 @@ Lecturer: Prof. [PAI-TA SHIH](http://www.fin.ntu.edu.tw/~ptshih/) & Prof. [YUN-C
 * Julia: Give You A Better Choice (final project) [[link]](https://github.com/thtang/Fintech-Text-Mining-and-Machine-Learning/tree/master/final)
 
 ## Contact:
-Feel free to contact me (thtang@nlg.csie.ntu.edu.tw) if you have any pro
+Feel free to contact me (thtang@nlg.csie.ntu.edu.tw) if you have any problem.
