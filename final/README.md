@@ -11,7 +11,8 @@ Main advantages of Julia:
   - Attractive to user.
   - Reduce the cost.
   - Benefit to running a comprehensive KYC.
-
+## Demo
+Youtube <b>[[link]](https://youtu.be/i4crzixmy6c)</b>
 ## Get Started
 * Follow Line ID <b>@705ijejy</b> or scan the QR code below: <br><img src="https://github.com/thtang/Fintech-Text-Mining-and-Machine-Learning/blob/master/final/visualization/705ijejy.png" width=180>
 * Say "<b>嗨</b>" to Julia. <br><img src="https://github.com/thtang/Fintech-Text-Mining-and-Machine-Learning/blob/master/final/visualization/62375490_339107223430898_7475202257256972288_n.png" width=280>
